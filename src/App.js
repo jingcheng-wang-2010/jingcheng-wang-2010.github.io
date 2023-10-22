@@ -1,11 +1,26 @@
-import logo from './logo.svg';
+import {useEffect} from 'react';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    document.body.classList.add(
+      'bg-slate-900',
+      'leading-relaxed', 
+      'text-slate-400',
+      'antialiased', 
+      'selection:bg-teal-300', 
+      'selection:text-teal-900',
+    );
+  }, []);
   return (
     <div className="lg:flex lg:justify-between lg:gap-4">
       <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
-        <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">Jingcheng Wang</h1>
+        <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
+          <a href="/">Jingcheng Wang</a>
+        </h1>
+        <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+          Marketing Manager at Australia Southworld Media
+        </h2>
         <p>About</p>
         <p>Experience</p>
         <p>Projects</p>
