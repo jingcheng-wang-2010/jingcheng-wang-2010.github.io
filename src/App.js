@@ -25,6 +25,7 @@ function App() {
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
                 Marketing Manager at Australia Southworld Media
               </h2>
+              <p class="mt-4 max-w-xs leading-normal">A software engineer at heart, got the opportunity to explore the world of media and marketing. Always looking to utilize the latest technology to automate and deliver high quality services</p>
               <nav className="nav hidden lg:block" aria-label="In-page jump links">
                 <ul class="mt16 w-max">
                   <li>
@@ -80,8 +81,7 @@ function App() {
               </div>
               <div>
                 <p className="mb-4">
-                  I started my career as a business support technician for 
-                  <a class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.thalesgroup.com/en/countries/asia-pacific/australia" target="_blank" rel="noreferrer">Thales Australia</a> while finishing off my Masters degree in Software Engineering. This role helped me build experience in business management using Microsoft SharePoint, and allowed me to familiarise with other departments as my department supported their work processes. After I finished my Masters and proceeded to PHD studies, I encountered an opportunity to join in a start-up, an Australian Chinese media company called <a class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://southworldmedia.com/" target="_blank" rel="noreferrer">Australia Southworld Media</a>. It allowed me to make use of my fluency in English and Chinese, my knowledge in web design and social media, and gain insight on clients and partners from various industries that we work with.
+                  I started my career as a Business Support Technician for <a class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.thalesgroup.com/en/countries/asia-pacific/australia" target="_blank" rel="noreferrer">Thales Australia</a> while finishing off my Masters degree in Software Engineering. This role helped me build experience in business management using Microsoft SharePoint, and allowed me to familiarise with other departments as my department supported their work processes. After I finished my Masters and proceeded to PHD studies, I encountered an opportunity to join in a start-up, an Australian Chinese media company called <a class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://southworldmedia.com/" target="_blank" rel="noreferrer">Australia Southworld Media</a>. It allowed me to make use of my fluency in English and Chinese, my knowledge in web design and social media, and gain insight on clients and partners from various industries that we work with.
                 </p>
               </div>
             </section>
@@ -96,7 +96,8 @@ function App() {
                       <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg">
                       </div>
                       <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2016 to Present">
-                    2016 — Present</header>
+                        2016 — Present
+                      </header>
                       <div class="z-10 sm:col-span-6">
                         <h3 class="font-medium leading-snug text-slate-200">
                           <div>
@@ -104,10 +105,7 @@ function App() {
                               <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block">
                               </span>
                               <span>
-                                Marketing Manager ·
-                                <span class="inline-block">
-                                  Australia Southworld Media
-                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                                Marketing Manager · <span class="inline-block">Australia Southworld Media <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
                                     <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
                                   </svg>
                                 </span>
@@ -164,14 +162,116 @@ function App() {
                       </div>
                     </div>
                   </li>
+                  <li class="mb-12">
+                    <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                      <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg">
+                      </div>
+                      <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2010 to 2016">
+                        2010 — 2016
+                      </header>
+                      <div class="z-10 sm:col-span-6">
+                        <h3 class="font-medium leading-snug text-slate-200">
+                          <div>
+                            <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="https://www.thalesgroup.com/en/countries/asia-pacific/australia" target="_blank" rel="noreferrer" aria-label="Business Support Technician at Thales Australia">
+                              <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block">
+                              </span>
+                              <span>
+                                Business Support Technician · <span class="inline-block">Thales Australia <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                                  </svg>
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </h3>
+                        <p class="mt-2 text-sm leading-normal">
+                          <ul>
+                            <li>Started as designing and building a data repository system from scratch using Microsoft SharePoint, the project grew quickly in scale and functionalities.</li>
+                            <li>Maintaining security settings to facilitate collaboration between teams and departments</li>
+                            <li>Create automated workflows for various work processes</li>
+                            <li>Design and maintain intranet and portal solutions for various departments and functionalities, involving SharepointWeb Parts, Designer functionalities, Power Automate functionalities and the usage of HTML, Javascript and CSS</li>
+                          </ul>
+                        </p>
+                        <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                          <li class="mr-1.5 mt-2">
+                          <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            SharePoint
+                          </div>
+                          </li>
+                          <li class="mr-1.5 mt-2">
+                          <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Javascript
+                          </div>
+                          </li>
+                          <li class="mr-1.5 mt-2">
+                            <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                              CSS
+                            </div>
+                          </li>
+                          <li class="mr-1.5 mt-2">
+                            <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                              HTML
+                            </div>
+                          </li>
+                          <li class="mr-1.5 mt-2">
+                            <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                              VisualBasic
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
                 </ol>
               </div>
             </section>
             <section id="projects" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Past Projects">
-              <p>Projects</p>
+              <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Projects</h2>
+              </div>
             </section>
             <section id="education" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Education">
-              <p>Education</p>
+              <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Education</h2>
+              </div>
+              <ol class="group/list">
+                  <li class="mb-12">
+                    <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                      <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg">
+                      </div>
+                      <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2013 to 2015">
+                        2013 — 2015
+                      </header>
+                      <div class="z-10 sm:col-span-6">
+                        <h3 class="font-medium leading-snug text-slate-200">
+                          <div>
+                            <div class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" aria-label="University of Sydney">
+                              <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block">
+                              </span>
+                              <span>
+                                University of Sydney
+                              </span>
+                            </div>
+                          </div>
+                          <div>
+                            <div class="text-slate-500" aria-hidden="true">Masters (via Research) of Information and Technology</div>
+                          </div>
+                        </h3>
+                        <p class="mt-2 text-sm leading-normal">
+                        Research topic: A Rule-based Methodology and Feature-based Methodology for Effect Relation Extraction in Chinese Unstructured Text
+                        </p>
+                        <div>
+                            <div class="text-slate-500" aria-hidden="true">Bachelor of Engineering (Software) /Bachelor of Arts (Chinese)</div>
+                          </div>
+                        <p class="mt-2 text-sm leading-normal">
+                        Honours Class II, Division 1
+                        </p>
+
+                      
+                      </div>
+                    </div>
+                  </li>
+                </ol>
             </section>
           </main>
         </div>
