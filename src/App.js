@@ -3,7 +3,7 @@ import {useEffect} from 'react';
 import './App.css';
 
 function App() {
-  const [name] = useState("Jingcheng Wang");
+  const [name] = useState("Jingcheng");
 
   useEffect(() => {
     document.body.classList.add(
