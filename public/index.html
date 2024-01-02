@@ -1,52 +1,272 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SMDEXM34R2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-SMDEXM34R2');
-    </script>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jingcheng Wang Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Jingcheng Wang</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <nav
+      class="navbar has-shadow is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img src="./img/logo.png" height="35" />
+        </a>
+        <a
+          role="button"
+          id="burger"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbar-links"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbar-links" class="navbar-menu">
+        <div class="navbar-start"></div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="navbar-item" href="#welcome-section"> About </a>
+            <a class="navbar-item" href="#projects-section"> Projects </a>
+            <a class="navbar-item" href="#profile-section"> Contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <section id="welcome-section" class="hero is-link mt-4">
+      <div class="hero-body">
+        <h1 class="title is-1 has-text-centered has-text-warning">
+          Welcome, I am Jing
+        </h1>
+        <h2 class="subtitle is-5 is-italic has-text-centered has-text-light">
+          web developer, marketing specialist, photographer
+        </h2>
+        <article class="message is-link">
+          <div class="message-body">
+            I started my career as a Business Support Technician for <a href="https://www.thalesgroup.com/en/countries/asia-pacific/australia" target="_blank"><strong>Thales Australia</strong></a> while finishing off my Masters degree in Software Engineering. This role helped me build experience in business management using Microsoft SharePoint, and allowed me to familiarise with other departments as my department supported their work processes. After I finished my Masters and proceeded to PHD studies, I encountered an opportunity to join in a start-up, an Australian Chinese media company called <a href="https://southworldmedia.com/" target="_blank"><strong>Australia Southworld Media</strong></a>. It allowed me to make use of my fluency in English and Chinese, my knowledge in web design and social media, and gain insight on clients and partners from various industries that we work with.
+            <p class="is-size-5 has-text-centered"><strong><a href="./file/CV - Jingcheng Wang.pdf" target="_blank">&gt&gt&gt see my resume &lt&lt&lt</a></strong></p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="projects-section" class="hero is-light">
+      <div class="hero-body">
+        <div height="100%">
+        <h3 class="title has-text-centered is-size-4">Past Projects</h3>
+        <div class="columns mt-5 is-8 is-variable is-multiline">
+          <div class="column is-4-tablet is-one-fifth-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img src="./img/project-eshop.jpg" alt="eShop" />
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-size-6 has-text-dark">eShop</p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a
+                    href="https://github.com/jingcheng-wang-2010/e-shop"
+                    target="_blank"
+                    class="has-text-grey"
+                    >View</a
+                  >
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-4-tablet is-one-fifth-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img
+                  src="./img/project-company-website.jpg"
+                  alt="Company Website"
+                />
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-size-6 has-text-dark">Company Website</p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a
+                    href="https://www.southworldmedia.com/"
+                    target="_blank"
+                    class="has-text-grey"
+                    >View</a
+                  >
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-4-tablet is-one-fifth-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img
+                  src="./img/project-random-quote-generator.jpg"
+                  alt="Random Quote Generator"
+                />
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-size-6 has-text-dark">
+                  Random Quote Generator
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a
+                    href="https://codepen.io/jingchengwang/full/MWLPYro"
+                    target="_blank"
+                    class="has-text-grey"
+                    >View</a
+                  >
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-4-tablet is-one-fifth-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img
+                  src="./img/project-javascript-calculator.jpg"
+                  target="_blank"
+                  alt="Javascript Calculator"
+                />
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-size-6 has-text-dark">
+                  Javascript Calculator
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a
+                    href="https://codepen.io/jingchengwang/full/qBgeERJ"
+                    class="has-text-grey"
+                    >View</a
+                  >
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-4-tablet is-one-fifth-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img
+                  src="./img/project-markdown-previewer.jpg"
+                  alt="Markdown Previewer"
+                />
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-size-6 has-text-dark">Markdown Previewer</p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a
+                    href="https://codepen.io/jingchengwang/full/ExrrZNG"
+                    target="_blank"
+                    class="has-text-grey"
+                    >View</a
+                  >
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-4-tablet is-one-fifth-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img
+                  src="./img/project-25--5-session-clock.jpg"
+                  alt="25+5 Session Clock"
+                />
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-size-6 has-text-dark">25+5 Session Clock</p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a
+                    href="https://codepen.io/jingchengwang/full/oNVvNbB"
+                    target="_blank"
+                    class="has-text-grey"
+                    >View</a
+                  >
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-4-tablet is-one-fifth-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img
+                  src="./img/project-bar-chart-in-d3.jpg"
+                  alt="Bar Chart in D3"
+                />
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-size-6 has-text-dark">Bar Chart in D3</p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a
+                    href="https://codepen.io/jingchengwang/full/oNVvNbB"
+                    target="_blank"
+                    class="has-text-grey"
+                    >View</a
+                  >
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-4-tablet is-one-fifth-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img
+                  src="./img/project-scatterplot-graph-in-d3.jpg"
+                  alt="Scatterplot Graph in D3"
+                />
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-size-6 has-text-dark">
+                  Scatterplot Graph in D3
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a
+                    href="https://codepen.io/jingchengwang/full/BabNpZR"
+                    target="_blank"
+                    class="has-text-grey"
+                    >View</a
+                  >
+                </p>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section id="profile-section" class="hero is-primary">
+      <div class="hero-body is-size-4">
+        <div class="has-text-centered">
+          <a href="https://www.linkedin.com/in/jingcheng-wang-63415a173/" target="_blank" class="btn contact-details mx-5"><i class="fab fa-facebook-square"></i> linkedIn</a>
+          <a id="profile-link" href="https://github.com/jingcheng-wang-2010" target="_blank" class="btn contact-details mx-5"><i class="fab fa-github"></i> GitHub</a>
+          <a href="mailto:jingwang49@gmail.com" class="btn contact-details mx-5"><i class="fas fa-at"></i> Send a mail</a>
+          <a href="tel:61466832322" class="btn contact-details mx-5"><i class="fas fa-mobile-alt"></i> Call me</a>
+      </div>
+    </div>
+    </section>
+    <script src="index.js"></script>
   </body>
 </html>
